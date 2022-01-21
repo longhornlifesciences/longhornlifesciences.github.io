@@ -16,12 +16,12 @@ theme: jekyll-agency
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Longhorn Life Sciences, LLC
-email      : your-email@example.com #this is also the email contact forms will go to
+title      : Longhorn Life Sciences, Inc.
+email      : milesswm@utexas.edu #this is also the email contact forms will go to
 description: "Medical device company"
 author     : 
 # logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
+  # path: ./assets/img/clients/logo_small.jpg
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml

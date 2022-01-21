@@ -13,8 +13,8 @@
 
 theme: jekyll-agency
 
-url    : "https://jhclarke.github.io/lls" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url    : "https://jhclarke.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/lls" # the subpath of your site, e.g. /blog
 
 title      : Longhorn Life Sciences, Inc.
 email      : milesswm@utexas.edu #this is also the email contact forms will go to

@@ -56,12 +56,12 @@ en: &DEFAULT_EN
         image: assets/img/timeline/2.jpg
         alt:
       - title: "Engaging Strategic Partners"
-        year: "2019"
+        year: "2021-Present"
         desc: "[Words here]"
         image: assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Competitions"
-        year: "2009-2011"
+        year: "2021-Present"
         desc: "[Words here]"
         image: assets/img/timeline/4.jpg
         alt:

@@ -98,7 +98,7 @@ en: &DEFAULT_EN
     subtext:     
     section: team
     people:
-      - name: "Miles Massida"
+      - name: "Miles Massidda"
         role: "CEO"
         image: assets/img/team/miles1.jpg
         social:

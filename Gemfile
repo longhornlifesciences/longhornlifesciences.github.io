@@ -9,4 +9,5 @@ gemspec
 # versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 gem "webrick", "~> 1.7"
+gem "jekyll-remote-theme"
 # gem "jekyll-agency", "~> 1.1"

@@ -67,6 +67,22 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      .navbar-nav {
+	    .nav-item {
+	      .nav-link {
+		font-size: 90%;
+		font-weight: 400;
+		padding: 50em 50em;
+		letter-spacing: 1px;
+		color: lightskyblue;
+		@include heading-font;
+		&.active,
+		&:hover {
+		  color: darken($primary, 30%);
+		}
+	      }
+	    }
+  }
       }
     }
   }

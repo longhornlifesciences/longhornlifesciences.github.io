@@ -11,8 +11,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
-# remote_theme: raviriley/agency-jekyll-theme
+# theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 
 # url    : https://jhclarke.github.io # the base hostname & protocol for your site, e.g. http://example.com
 # baseurl: /lls # the subpath of your site, e.g. /blog
@@ -40,4 +40,4 @@ markdown: kramdown
 # formspree_form_path: "f/a_form_id"
 
 # plugins:
-# - jekyll-remote-theme
+- jekyll-remote-theme

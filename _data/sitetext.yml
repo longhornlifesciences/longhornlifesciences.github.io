@@ -46,23 +46,23 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        year: "Spring 2021"
+        desc: "Our team came together as part of the inagural Texas Biodesign program. [More here]"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Longhorn Life Sciences is Founded"
+        year: "July 2021"
+        desc: "After completing the Texas Biodesign program our team began pursuing our leading innovation - the Infection Detective. By the summer of 2021 we had taken an important step in bringing our technolgy forward, incorporating as a Deleware C Corp."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
+      - title: "Engaging Strategic Partners"
         year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        desc: "[Words here]"
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
+      - title: "Competitions"
         year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        desc: "[Words here]"
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
@@ -71,7 +71,7 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
+    text: ""
     section: about
 
   # clients:

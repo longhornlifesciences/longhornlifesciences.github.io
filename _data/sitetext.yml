@@ -40,7 +40,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text: ""
     section: timeline
     # left is the default
     #start_align: "left"
@@ -69,10 +69,10 @@ en: &DEFAULT_EN
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
-  about:
-    title: "About Us"
-    text: ""
-    section: about
+  # about:
+  #   title: "About Us"
+  #   text: ""
+  #   section: about
 
   # clients:
   #   section: clients
@@ -100,7 +100,7 @@ en: &DEFAULT_EN
     people:
       - name: "Miles Massidda"
         role: "CEO"
-        image: assets/img/team/miles1.jpg
+        image: assets/img/team/miles.png
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -149,6 +149,62 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
  
+  advisors:
+    title: "OUR ADVISORS"
+    text: ""
+    subtext:     
+    section: team
+    people:
+      - name: "Miles Massidda"
+        role: "CEO"
+        image: assets/img/team/miles.png
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Nicholas Schneider"
+        role: "CTO"
+        image: assets/img/team/nick.png
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Cristina Checka"
+        role: "CMO"
+        image: assets/img/team/cristina.png
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "James Clarke"
+        role: "CSO"
+        image: assets/img/team/james.jpg
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Scott Alpard"
+        role: "COO"
+        image: assets/img/team/scott.png
+        social:
+           # - url: https://twitter.com
+           #   icon: fab fa-twitter
+           # - url: https://facebook.com
+           #   icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
 
 
 

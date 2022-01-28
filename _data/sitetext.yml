@@ -40,7 +40,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "About"
-    text: ""
+    text: "At Longhorn Life Sciences we're developing the Infection Detective.</br>Here's our story so far..."
     section: timeline
     # left is the default
     #start_align: "left"
@@ -57,12 +57,12 @@ en: &DEFAULT_EN
         alt:
       - title: "Engaging Strategic Partners"
         year: "2021-Present"
-        desc: "[Words here]"
+        desc: "During our tenure as a company we've sought out strategic parnterships, including NASAs Office of Technology Transfer."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Competitions"
-        year: "2021-Present"
-        desc: "[Words here]"
+      - title: "Texas Venture Labs Investment Competition"
+        year: "Fall 2021"
+        desc: "We competed against other student led startups in the prestigous Texas Venture Labs Investment Competition where we won 5 awards incuding the award for top Health Innovation."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
@@ -99,7 +99,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Miles Massidda"
-        role: "CEO"
+        role: "CEO</br>PhD Candidate in Biomedical Engineering, UT Austin"
         image: assets/img/team/miles.png
         social:
           # - url: https://twitter.com
@@ -109,7 +109,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/miles-massidda-25a86aa8/
             icon: fab fa-linkedin-in
       - name: "Nicholas Schneider"
-        role: "CTO"
+        role: "CTO<br/>MBA Candidate, UT Austin"
         image: assets/img/team/nick.png
         social:
           # - url: https://twitter.com
@@ -118,8 +118,8 @@ en: &DEFAULT_EN
           #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/nicholas-schneider-sot44/
             icon: fab fa-linkedin-in
-      - name: "Cristina Checka"
-        role: "CMO"
+      - name: "Dr. Cristina Checka, MD"
+        role: "CMO</br>Department of Breast Surgical Oncology, Division of Surgery, MD Anderson"
         image: assets/img/team/cristina.png
         social:
           # - url: https://twitter.com
@@ -129,7 +129,7 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "James Clarke"
-        role: "CSO"
+        role: "CSO<br/>PhD Candidate in Phyics, UT Austin"
         image: assets/img/team/james.jpg
         social:
           # - url: https://twitter.com
@@ -139,7 +139,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/james-h-clarke-v/
             icon: fab fa-linkedin-in
       - name: "Scott Alpard"
-        role: "COO"
+        role: "COO</br>Chief Business Officer/Dept Admin and Director, Innovation</br>Department of Breast Surgical Oncology, MD Anderson"
         image: assets/img/team/scott.png
         social:
            # - url: https://twitter.com
@@ -166,7 +166,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/van-n-truskett-4111522/
             icon: fab fa-linkedin-in
       - name: "Ashley Jennings"
-        role: "Managing Director, Texas Innovation Center; Director, Entrepreneurship Initiatives, UT CNS"
+        role: "Managing Director, Texas Innovation Center<br/>Director, Entrepreneurship Initiatives, UT CNS"
         image: assets/img/advisors/jennings.jpeg
         social:
           # - url: https://twitter.com
@@ -176,7 +176,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/ashley-jane/
             icon: fab fa-linkedin-in
       - name: "Julie Goonewardene"
-        role: "Chief Innovation and Human Resources Officer, UT Austin; Managing Director UT Horizon Fund"
+        role: "Chief Innovation and Human Resources Officer, UT Austin<br/>Managing Director UT Horizon Fund"
         image: assets/img/advisors/goonewardene.jpeg
         social:
           # - url: https://twitter.com
@@ -186,7 +186,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/julie-goonewardene-a734394/
             icon: fab fa-linkedin-in
       - name: "Dr. Chithra Krishnamurthy, PhD"
-        role: "Senior Technology Licensing Specialist; UT Austin OTC"
+        role: "Senior Technology Licensing Specialist, UT Austin OTC"
         image: assets/img/advisors/krishnamurthy.png
         social:
           # - url: https://twitter.com

@@ -40,7 +40,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "About"
-    text: "Longhorn Life Sciencesis a MedTechcompany whose mission is to develop needs-driven medical technology that will improve patient experiences and outcomes.</br>Here's our story so far..."
+    text: "Longhorn Life Sciences is a MedTech company whose mission is to develop needs-driven medical technology that will improve patient experiences and outcomes.</br>Here's our story so far..."
     section: timeline
     # left is the default
     #start_align: "left"

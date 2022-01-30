@@ -62,7 +62,7 @@ en: &DEFAULT_EN
         alt: image alt text
       - title: "Texas Venture Labs Investment Competition"
         year: "Fall 2021"
-        desc: "We competed against other student led startups in the prestigous Texas Venture Labs Investment Competition where we won 5 awards incuding the award for top Health Innovation."
+        desc: "We competed against other student led startups in the prestigous Texas Venture Labs Investment Competition where we won 4 awards incuding the award for top Health Innovation."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment

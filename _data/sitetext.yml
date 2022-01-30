@@ -156,7 +156,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Dr. Van Truskett, PhD"
-        role: "Director of Technology Innovation Development, UT Austin OTC"
+        role: "Executive Director, Texas Innovation Center; VPR Office"
         image: assets/img/advisors/truskett.jpeg
         social:
           # - url: https://twitter.com

@@ -156,7 +156,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Dr. Van Truskett, PhD"
-        role: "Executive Director, Texas Innovation Center; VPR Office"
+        role: "Executive Director, Texas Innovation Center; UT VPR"
         image: assets/img/advisors/truskett.jpeg
         social:
           # - url: https://twitter.com

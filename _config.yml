@@ -19,6 +19,7 @@ remote_theme: raviriley/agency-jekyll-theme
 
 title      : Longhorn Life Sciences, Inc.
 email      : milesswm@utexas.edu #this is also the email contact forms will go to
+formspree_form_path : f/xeqngvel
 description: "Medical device company"
 author     : 
 # logo:     #optional, defaults to site title

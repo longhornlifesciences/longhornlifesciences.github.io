@@ -129,7 +129,7 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "James Clarke"
-        role: "CSO<br/>PhD Candidate in Phyics, UT Austin"
+        role: "CSO<br/>PhD Candidate in Physics, UT Austin"
         image: assets/img/team/james.jpg
         social:
           # - url: https://twitter.com

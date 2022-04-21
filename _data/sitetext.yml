@@ -205,6 +205,16 @@ en: &DEFAULT_EN
            #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/r-scott-evans-34a6512/
             icon: fab fa-linkedin-in
+      - name: "Prof. Emily Porter, PhD"
+        role: "Assistant Professor, UT Austin, Dept. of Electrical & Computer Engineering"
+        image: assets/img/advisors/porter.jpeg
+        social:
+           # - url: https://twitter.com
+           #   icon: fab fa-twitter
+           # - url: https://facebook.com
+           #   icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/emily-porter-2b945595/
+            icon: fab fa-linkedin-in
 
 
 

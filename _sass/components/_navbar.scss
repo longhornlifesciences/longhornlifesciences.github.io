@@ -6,14 +6,14 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     border: 0;
     background-color: $primary;
     @include heading-font;
   }
   .navbar-brand {
     color: $primary;
-    @include script-font;
+    // @include script-font;
     &.active,
     &:active,
     &:focus,
@@ -26,22 +26,22 @@
       .nav-link {
         font-size: 90%;
         font-weight: 400;
-        padding: 0.75em 0;
+        padding: 50em 50em;
         letter-spacing: 1px;
-        color: white;
+        color: lightskyblue;
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: darken($primary, 30%);
         }
       }
     }
   }
 }
-@media (min-width: 992px) {
+@media(min-width:992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 50px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -67,6 +67,71 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      .navbar-nav {
+	    .nav-item {
+	      .nav-link {
+		font-size: 90%;
+		font-weight: 400;
+		padding: 50em 50em;
+		letter-spacing: 1px;
+		color: lightskyblue;
+		@include heading-font;
+		&.active,
+		&:hover {
+		  color: darken($primary, 30%);
+		}
+	      }
+	    }
+  }
+      }
+    }
+  }
+}
+@media(min-width:100px) {
+  #mainNav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: $gray-900;
+    .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 1.1em 1em !important;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 2;
+      padding-bottom: 2;
+      background-color: $gray-900;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+      .navbar-nav {
+	    .nav-item {
+	      .nav-link {
+		font-size: 90%;
+		font-weight: 400;
+		padding: 50em 50em;
+		letter-spacing: 1px;
+		color: lightskyblue;
+		@include heading-font;
+		&.active,
+		&:hover {
+		  color: darken($primary, 30%);
+		}
+	      }
+	    }
+  }
       }
     }
   }

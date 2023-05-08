@@ -40,7 +40,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "About"
-    text: "Longhorn Life Sciences is a MedTech company whose mission is to develop needs-driven medical technology that will improve patient experiences and outcomes.</br>Here's our story so far..."
+    text: "Longhorn Life Sciences Inc. (LLS) is a MedTech venture led by a strong and diverse team of scientists, clinicians, and entrepreneurs at UT Austin and MD Anderson. Our mission is to develop needs-driven medical technology to improve patient outcomes and experiences.</br></br>Here's our story so far..."
     section: timeline
     # left is the default
     #start_align: "left"
@@ -68,6 +68,12 @@ en: &DEFAULT_EN
       - title: "Pitch Competitions"
         year: "Fall 2021 - Present"
         desc: "Over the past year we've competed in several pitch competitions. We've participated twice in the prestigous Texas Venture Labs Investment Competition where we won 5 awards incuding the award for the top health innovation. We were an alternate for the Texas A&M New Ventures Competition where we won the elevator pitch and 2 other awards."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+      - title: "Customer Discovery Interviews"
+        year: "Spring 2022 - Present"
+        desc: "The team, led by Miles Massidda and Dr. Cristina Checka, have completed 75 customer discovery interviews to date through business mentorship programs (VentureWell and Washington University’s Equalize). The interviews have targeted doctors, nurses, patients, and clinical purchasing teams to validate the clinical need for the device, mitigate regulatory hurdles, and identify viable sales channels."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
@@ -99,7 +105,7 @@ en: &DEFAULT_EN
   #       logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
+    title: "OUR TEAM"
     text: ""
     subtext:     
     section: team

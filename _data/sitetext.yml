@@ -110,8 +110,8 @@ en: &DEFAULT_EN
     subtext:     
     section: team
     people:
-      - name: "Miles Massidda"
-        role: "CEO</br>PhD Candidate in Biomedical Engineering, UT Austin"
+      - name: "Miles Massidda, PhD"
+        role: "CEO</br>PhD in Biomedical Engineering, UT Austin"
         image: assets/img/team/miles.png
         social:
           # - url: https://twitter.com
@@ -121,7 +121,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/miles-massidda-25a86aa8/
             icon: fab fa-linkedin-in
       - name: "Nicholas Schneider"
-        role: "CTO<br/>MBA Candidate, UT Austin"
+        role: "CTO<br/>MBA, UT Austin"
         image: assets/img/team/nick.png
         social:
           # - url: https://twitter.com
@@ -167,16 +167,16 @@ en: &DEFAULT_EN
     subtext:     
     section: team
     people:
-      - name: "Dr. Van Truskett, PhD"
-        role: "Executive Director, Texas Innovation Center; UT VPR"
-        image: assets/img/advisors/truskett.jpeg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/van-n-truskett-4111522/
-            icon: fab fa-linkedin-in
+      # - name: "Dr. Van Truskett, PhD"
+      #   role: "Executive Director, Texas Innovation Center; UT VPR"
+      #   image: assets/img/advisors/truskett.jpeg
+      #   social:
+      #     # - url: https://twitter.com
+      #     #   icon: fab fa-twitter
+      #     # - url: https://facebook.com
+      #     #   icon: fab fa-facebook-f
+      #     - url: https://www.linkedin.com/in/van-n-truskett-4111522/
+      #       icon: fab fa-linkedin-in
       - name: "Ashley Jennings"
         role: "Managing Director, Texas Innovation Center<br/>Director, Entrepreneurship Initiatives, UT CNS"
         image: assets/img/advisors/jennings.jpeg
@@ -197,17 +197,23 @@ en: &DEFAULT_EN
           #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/julie-goonewardene-a734394/
             icon: fab fa-linkedin-in
-      - name: "Dr. Chithra Krishnamurthy, PhD"
-        role: "Senior Technology Licensing Specialist, UT Austin OTC"
-        image: assets/img/advisors/krishnamurthy.png
+      # - name: "Dr. Chithra Krishnamurthy, PhD"
+      #   role: "Senior Technology Licensing Specialist, UT Austin OTC"
+      #   image: assets/img/advisors/krishnamurthy.png
+      #   social:
+      #     # - url: https://twitter.com
+      #     #   icon: fab fa-twitter
+      #     # - url: https://facebook.com
+      #     #   icon: fab fa-facebook-f
+      #     - url: https://www.linkedin.com/in/chithrakrishnamurthy/
+      #       icon: fab fa-linkedin-in
+      - name: "Gazell Call, PhD"
+        role: "IP Specialist for Life Science, UT Austin Discovery to Impact"
+        image: assets/img/advisors/call.jpeg
         social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/chithrakrishnamurthy/
+          - url: https://www.linkedin.com/in/gazellcall/
             icon: fab fa-linkedin-in
-      - name: "Dr. Scott Evans, PhD"
+      - name: "Scott Evans, PhD"
         role: "Director Texas Inventionworks, UT Austin CSE"
         image: assets/img/advisors/evans.png
         social:

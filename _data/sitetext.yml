@@ -43,7 +43,7 @@ en: &DEFAULT_EN
     section: video
   
   timeline:
-    title: "Our story so far"
+    title: "Our story"
     text: " "
     section: timeline
     # left is the default

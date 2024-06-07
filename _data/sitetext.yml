@@ -37,10 +37,14 @@ en: &DEFAULT_EN
   #   text: "Lorem ipsum dolor sit amet consectetur."
   #   section: portfolio
   #   closebutton: "Close Project"
-
+  video:
+    title: "Our mission"
+    text: "Longhorn Life Sciences Inc. (LLS) is a MedTech venture led by a strong and diverse team of scientists, clinicians, and entrepreneurs at UT Austin and MD Anderson. Our mission is to develop needs-driven medical technology to improve patient outcomes and experiences.</br></br> Learn how we are revolutionizing the management of post-operative wound care at home..."
+    section: video
+  
   timeline:
-    title: "About"
-    text: "Longhorn Life Sciences Inc. (LLS) is a MedTech venture led by a strong and diverse team of scientists, clinicians, and entrepreneurs at UT Austin and MD Anderson. Our mission is to develop needs-driven medical technology to improve patient outcomes and experiences.</br></br>Here's our story so far..."
+    title: "Our story so far"
+    text: " "
     section: timeline
     # left is the default
     #start_align: "left"

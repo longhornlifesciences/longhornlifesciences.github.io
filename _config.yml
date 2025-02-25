@@ -18,7 +18,7 @@ remote_theme: raviriley/agency-jekyll-theme
 # baseurl: /lls # the subpath of your site, e.g. /blog
 
 title      : Longhorn Life Sciences, Inc.
-email      : milesswm@utexas.edu #this is also the email contact forms will go to
+email      : miles@longhornlifesciences.com #this is also the email contact forms will go to
 formspree_form_path : f/xeqngvel
 description: "Medical device company"
 author     : 

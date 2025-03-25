@@ -155,7 +155,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/james-h-clarke-v/
             icon: fab fa-linkedin-in
       - name: "Scott Alpard"
-        role: "Co-founder</br>/Dept Admin and Director, Innovation</br>Department of Breast Surgical Oncology, MD Anderson"
+        role: "Co-founder</br>Dept Admin and Director, Innovation</br>Department of Breast Surgical Oncology, MD Anderson"
         image: assets/img/team/scott.png
         social:
            # - url: https://twitter.com

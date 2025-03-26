@@ -135,7 +135,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/nicholas-schneider-sot44/
             icon: fab fa-linkedin-in
       - name: "Dr. Cristina Checka, MD"
-        role: "CMO</br>Department of Breast Surgical Oncology, Division of Surgery, MD Anderson"
+        role: "Co-founder</br>Department of Breast Surgical Oncology, Division of Surgery, MD Anderson"
         image: assets/img/team/cristina.png
         social:
           # - url: https://twitter.com

@@ -41,7 +41,13 @@ en: &DEFAULT_EN
     title: "Our mission"
     text: "Longhorn Life Sciences Inc. (LLS) is a MedTech venture led by a strong and diverse team of scientists, clinicians, and entrepreneurs at UT Austin and MD Anderson. Our mission is to develop needs-driven medical technology to improve patient outcomes and experiences.</br></br> Learn how we are revolutionizing the management of post-operative wound care at home..."
     section: video
-  
+  linkedin:
+    title: "Stay Connected"
+    text: "Follow Longhorn Life Sciences on LinkedIn to stay updated on our mission, events, and progress."
+    button_text: "Follow Us on LinkedIn"
+    button_url: "https://www.linkedin.com/company/longhorn-life-sciences"
+    section: linkedin
+
   timeline:
     title: "Our story"
     text: " "
@@ -52,33 +58,33 @@ en: &DEFAULT_EN
       - title: "Our Humble Beginnings"
         year: "Spring 2021"
         desc: "Our team came together as part of the inagural Texas Biodesign program. The program was geared at teaching a Needs-Based approach to innovation in the medical sector. Our team identified several quality needs, eventually leading to the idea-inception of the Infection Detective."
-        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/utcampus.jpg
         alt:
       - title: "Longhorn Life Sciences is Founded"
         year: "July 2021"
         desc: "After completing the Texas Biodesign program our team began pursuing development of the Infection Detective. By the summer of 2021 we had taken an important step in bringing our technolgy forward, incorporating as a Delaware C Corp."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/llsteam.jpg
         alt:
       - title: "Engaging Strategic Partners"
         year: "2021-Present"
-        desc: "During our tenure as a company we've sought out strategic parnterships, including NASAs Office of Technology Transfer."
-        image: assets/img/timeline/3.jpg
+        desc: "During our tenure as a company we've sought out strategic parnterships, including established wound care device manufacturers, the Department of Defense, and NASA's Office of Technology Transfer."
+        image: assets/img/timeline/strategicpartnerships.jpg
         alt: image alt text
       - title: "Venturewell E-Team"
         year: "Spring 2021 - Fall 2021"
-        desc: "We were selected as an E-team in the prestiguous Venturewell E-team program at the Pioneer, and Propel levels. We participated in their workshops where we received coaching, mentorship, and conducted a series of customer discovery interviews that helped us adapt and improve on our value propositions, and our market strategies."
-        image: assets/img/timeline/4.jpg
+        desc: "We were selected as an E-team in the prestigious Venturewell E-team program at the Pioneer, and Propel levels. We participated in their workshops where we received coaching, mentorship, and conducted a series of customer discovery interviews that helped us adapt and improve on our value propositions, and our market strategies."
+        image: assets/img/timeline/venturewell.jpg
         alt: image alt text
       - title: "Pitch Competitions"
         year: "Fall 2021 - Present"
-        desc: "Over the past year we've competed in several pitch competitions. We've participated twice in the prestigous Texas Venture Labs Investment Competition where we won 5 awards incuding the award for the top health innovation. We were an alternate for the Texas A&M New Ventures Competition where we won the elevator pitch and 2 other awards."
-        image: assets/img/timeline/4.jpg
-        alt:
+        desc: "Since our founding, we've competed in several pitch competitions. We've competed in the prestigous Texas Venture Labs Investment Competition on four seperate occasions. In addition to winning the competition in Fall 2024, we won several additional awards including the award for the top health innovation. We were an alternate for the Texas A&M New Ventures Competition where we won the elevator pitch and two other awards. More recently, we were invited to pitch at Project Medtech in 2024. "
+        image: assets/img/timeline/pitch.jpg
+        alt: image alt text
         # you can enforce the alignment
       - title: "Customer Discovery Interviews"
         year: "Spring 2022 - Present"
-        desc: "The team, led by Miles Massidda and Dr. Cristina Checka, have completed 75 customer discovery interviews to date through business mentorship programs (VentureWell and Washington University’s Equalize). The interviews have targeted doctors, nurses, patients, and clinical purchasing teams to validate the clinical need for the device, mitigate regulatory hurdles, and identify viable sales channels."
-        image: assets/img/timeline/4.jpg
+        desc: "The team, led by Dr. Miles Massidda, Dr. Cristina Checka, and students participating in Texas Venture Labs Practicum have completed 140 customer discovery interviews to date. These interviews were conducted, in part, through business mentorship programs (VentureWell and Washington University’s Equalize). The interviews have targeted doctors, nurses, patients, and clinical purchasing teams to validate the clinical need for the device, mitigate regulatory hurdles, and identify viable sales channels. Additionally, preliminary interviews have been conducted to explore alternative verticals and use cases for our technology."
+        image: assets/img/timeline/customerdiscovery.jpg
         alt:
         # you can enforce the alignment
         align: right
@@ -115,18 +121,18 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Miles Massidda, PhD"
-        role: "CEO</br>PhD in Biomedical Engineering, UT Austin"
-        image: assets/img/team/miles.png
+        role: "Co-founder & CEO</br>PhD in Biomedical Engineering, UT Austin"
+        image: assets/img/team/miles2.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
           # - url: https://facebook.com
           #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/miles-massidda-25a86aa8/
+          - url: https://www.linkedin.com/in/miles-massidda-ph-d-25a86aa8
             icon: fab fa-linkedin-in
       - name: "Nicholas Schneider"
-        role: "CTO<br/>MBA, UT Austin"
-        image: assets/img/team/nick.png
+        role: "Co-founder<br/>MBA, UT Austin"
+        image: assets/img/team/nicholas1.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -136,7 +142,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Dr. Cristina Checka, MD"
         role: "Co-founder</br>Department of Breast Surgical Oncology, Division of Surgery, MD Anderson"
-        image: assets/img/team/cristina.png
+        image: assets/img/team/christina1.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -145,8 +151,8 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "James Clarke, PhD"
-        role: "CSO<br/>PhD in Physics, UT Austin"
-        image: assets/img/team/james.jpg
+        role: "Co-founder & CSO<br/>PhD in Physics, UT Austin"
+        image: assets/img/team/james1.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -156,7 +162,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Scott Alpard"
         role: "Co-founder</br>Dept Admin and Director, Innovation</br>Department of Breast Surgical Oncology, MD Anderson"
-        image: assets/img/team/scott.png
+        image: assets/img/team/scott1.jpg
         social:
            # - url: https://twitter.com
            #   icon: fab fa-twitter
@@ -191,16 +197,16 @@ en: &DEFAULT_EN
           #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/ashley-jane/
             icon: fab fa-linkedin-in
-      - name: "Julie Goonewardene"
-        role: "Chief Innovation and Human Resources Officer, UT Austin<br/>Managing Director UT Horizon Fund"
-        image: assets/img/advisors/goonewardene.jpeg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/julie-goonewardene-a734394/
-            icon: fab fa-linkedin-in
+      # - name: "Julie Goonewardene"
+      #   role: "Chief Innovation and Human Resources Officer, UT Austin<br/>Managing Director UT Horizon Fund"
+      #   image: assets/img/advisors/julie.jpg
+      #   social:
+      #     # - url: https://twitter.com
+      #     #   icon: fab fa-twitter
+      #     # - url: https://facebook.com
+      #     #   icon: fab fa-facebook-f
+      #     - url: https://www.linkedin.com/in/julie-goonewardene-a734394/
+      #       icon: fab fa-linkedin-in
       # - name: "Dr. Chithra Krishnamurthy, PhD"
       #   role: "Senior Technology Licensing Specialist, UT Austin OTC"
       #   image: assets/img/advisors/krishnamurthy.png
@@ -212,14 +218,14 @@ en: &DEFAULT_EN
       #     - url: https://www.linkedin.com/in/chithrakrishnamurthy/
       #       icon: fab fa-linkedin-in
       - name: "Gazell Call, PhD"
-        role: "IP Specialist for Life Science, UT Austin Discovery to Impact"
-        image: assets/img/advisors/call.jpeg
+        role: "Senior IP Specialist, UT Austin Discovery to Impact"
+        image: assets/img/advisors/gazell1.jpg
         social:
           - url: https://www.linkedin.com/in/gazellcall/
             icon: fab fa-linkedin-in
       - name: "Scott Evans, PhD"
         role: "Director Texas Inventionworks, UT Austin CSE"
-        image: assets/img/advisors/evans.png
+        image: assets/img/advisors/scottevans1.jpg
         social:
            # - url: https://twitter.com
            #   icon: fab fa-twitter
@@ -227,15 +233,15 @@ en: &DEFAULT_EN
            #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/r-scott-evans-34a6512/
             icon: fab fa-linkedin-in
-      - name: "Prof. Emily Porter, PhD"
-        role: "Assistant Professor, UT Austin, Dept. of Electrical & Computer Engineering"
-        image: assets/img/advisors/porter.jpeg
+      - name: "Prof. Deji Akinwande, PhD"
+        role: "Professor, UT Austin, Dept. of Electrical & Computer Engineering"
+        image: assets/img/advisors/deji1.jpg
         social:
            # - url: https://twitter.com
            #   icon: fab fa-twitter
            # - url: https://facebook.com
            #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/emily-porter-2b945595/
+          - url: https://www.linkedin.com/in/deji-akinwande-b77b48b9
             icon: fab fa-linkedin-in
 
 

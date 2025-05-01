@@ -77,7 +77,7 @@ en: &DEFAULT_EN
         alt: image alt text
       - title: "Pitch Competitions"
         year: "Fall 2021 - Present"
-        desc: "Since our founding, we've competed in several pitch competitions. We've competed in the prestigous Texas Venture Labs Investment Competition on four seperate occasions. In addition to winning the competition in Fall 2024, we won several additional awards including the award for the top health innovation. We were an alternate for the Texas A&M New Ventures Competition where we won the elevator pitch and two other awards. More recently, we were invited to pitch at Project Medtech in 2024. "
+        desc: "Since our founding, we've competed in several pitch competitions. We've competed in the prestigous Texas Venture Labs Investment Competition on four separate occasions. In addition to winning the competition in Fall 2024, we won several additional awards including the award for the top health innovation. We were an alternate for the Texas A&M New Ventures Competition where we won the elevator pitch and two other awards. More recently, we were invited to pitch at Project Medtech in 2024. "
         image: assets/img/timeline/pitch.jpg
         alt: image alt text
         # you can enforce the alignment

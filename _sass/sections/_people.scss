@@ -1,14 +1,23 @@
 @use "../base/mq" as *;
 
-// Team/bio blocks: 4-across, square photo, name / role / credential.
+// Team/bio blocks: square photo, name / role / credential. Up to 4 per row
+// (2 below $bp-md) at a fixed card width, with rows centred. Any count
+// lays out evenly: 3 sits centred, and 5 becomes 4 plus a centred 1.
 .people {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 48px 36px;
+  --cols: 4;
+  --gap-x: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px var(--gap-x);
   margin: 0;
   padding: 0;
   list-style: none;
-  @include below($bp-md) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @include below($bp-md) { --cols: 2; }
+}
+.person {
+  flex: 0 0 calc((100% - (var(--cols) - 1) * var(--gap-x)) / var(--cols));
+  min-width: 0;
 }
 .person__photo {
   width: 100%;

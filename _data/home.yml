@@ -89,11 +89,11 @@ advisors:
   eyebrow: "Our advisors"
   title: "Guided by experienced mentors."
   people:
-    - name: "Ashley Jennings"
-      role: "Managing Director, Texas Innovation Center"
-      credential: "Director, Entrepreneurship Initiatives, UT CNS"
-      image: assets/img/people/ashley-jennings.webp
-      linkedin: https://www.linkedin.com/in/ashley-jane/
+    # - name: "Ashley Jennings"
+    #   role: "Managing Director, Texas Innovation Center"
+    #   credential: "Director, Entrepreneurship Initiatives, UT CNS"
+    #   image: assets/img/people/ashley-jennings.webp
+    #   linkedin: https://www.linkedin.com/in/ashley-jane/
     - name: "Gazell Call, PhD"
       role: "Senior IP Specialist"
       credential: "UT Austin Discovery to Impact"

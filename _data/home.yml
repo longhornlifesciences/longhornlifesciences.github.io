@@ -90,7 +90,7 @@ team:
 
 advisors:
   eyebrow: "Partners & advisors"
-  title: "Guided by experienced mentors."
+  title: "Guided by experienced mentors and partners."
   people:
     # - name: "Ashley Jennings"
     #   role: "Managing Director, Texas Innovation Center"
@@ -121,13 +121,14 @@ advisors:
       linkedin: https://www.linkedin.com/in/deji-akinwande-b77b48b9
     - name: "James Phelps"
       role: "Chief Technical Officer, Plyobotics LLC"
-      credential: "Electrical Engineer, NASA Langley Research Center"
+      credential: "Former Electrical Engineer, NASA Langley Research Center"
       image: assets/img/people/james-phelps.webp
   # Partner logos: use the organization's own logo file, unaltered, with permission.
-  partners:
-    - name: "Capital Factory"
-      logo: assets/img/partners/capital-factory.svg
-      url: https://www.capitalfactory.com
+  # Hidden until partner permissions are confirmed (check started 2026-09-27).
+  # partners:
+  #   - name: "Capital Factory"
+  #     logo: assets/img/partners/capital-factory.svg
+  #     url: https://www.capitalfactory.com
 
 contact:
   eyebrow: "Contact"

@@ -21,9 +21,13 @@ You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaopt
 
 {% else %}
 
-We do not collect any data about you or use any cookies.
+We do not use cookies or analytics.
 
 {% endif %}
+
+Contact form:
+
+If you contact us through the form on this site, we receive the name, email address, phone number (if provided), and message you submit. Submissions are processed by our form provider, Formspree (<https://formspree.io/legal/privacy-policy>), and are used only to respond to your inquiry.
 
 ## Changes
 

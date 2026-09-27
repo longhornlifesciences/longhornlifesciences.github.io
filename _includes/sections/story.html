@@ -5,7 +5,7 @@
     <ol class="timeline">
       {%- for e in s.events %}
       <li class="timeline__item">
-        <article class="timeline__card">
+        <article class="timeline__card{% unless e.image %} timeline__card--text{% endunless %}">
           {%- if e.image %}
           <div class="timeline__media{% if e.fit == 'contain' %} timeline__media--contain{% endif %}">
             <img src="{{ e.image | relative_url }}" alt="{{ e.alt }}" loading="lazy">

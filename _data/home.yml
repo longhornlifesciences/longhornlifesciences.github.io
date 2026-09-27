@@ -53,6 +53,12 @@ story:
       desc: "Led by Dr. Miles Massidda, Dr. Cristina Checka, and students in the Texas Venture Labs Practicum, the team has completed 140 customer discovery interviews, in part through the VentureWell and Washington University Equalize mentorship programs. The interviews have targeted doctors, nurses, patients, and clinical purchasing teams to validate the clinical need, mitigate regulatory hurdles, and identify viable sales channels."
       image: assets/img/story/customerdiscovery.jpg
       alt: "Team members conducting interviews"
+    - date: "Fall 2025 – Winter 2026"
+      title: "gBETA accelerator"
+      desc: "We were selected for gBETA Round Rock, a gener8tor accelerator program hosted with the Round Rock Chamber, providing mentorship and investor introductions."
+    - date: "August 2026"
+      title: "American Cancer Society accelerator grant"
+      desc: "We were awarded an accelerator grant from the American Cancer Society to support the development of iDetect."
 
 team:
   eyebrow: "Our team"

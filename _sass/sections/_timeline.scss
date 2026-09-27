@@ -44,6 +44,7 @@ $gutter: 48px; // card offset from the left edge
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
 }
+.timeline__card--text { grid-template-columns: 1fr; }
 .timeline__media {
   background: var(--slate-100);
   img { width: 100%; height: 100%; object-fit: cover; }

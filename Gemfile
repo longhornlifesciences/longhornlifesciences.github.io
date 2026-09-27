@@ -1,17 +1,10 @@
-#after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
-gemspec
-# Delete the following lines if not on Windows: 
-# Performance-booster for watching directories on Windows
 
-require 'json'
-# require 'open-uri'
-# versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-# gem "webrick", "~> 1.7"
-gem "jekyll-remote-theme"
-# gem "jekyll-agency", "~> 1.1"
+# Built and deployed by .github/workflows/pages.yml, so this file (and
+# Gemfile.lock) is exactly what production runs. Update with `bundle update`.
+gem "jekyll", "~> 4.4"
 
-gem "webrick", "~> 1.8"
-
-gem "jekyll", "~> 4.2"
-gem "agency", "~> 0.0.1"
+group :jekyll_plugins do
+  gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-sitemap", "~> 1.4"
+end

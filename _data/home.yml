@@ -119,10 +119,11 @@ advisors:
       credential: "UT Austin, Department of Electrical & Computer Engineering"
       image: assets/img/people/deji-akinwande.webp
       linkedin: https://www.linkedin.com/in/deji-akinwande-b77b48b9
-    - name: "James Phelps"
-      role: "Chief Technical Officer, Plyobotics LLC"
-      credential: "Former Electrical Engineer, NASA Langley Research Center"
-      image: assets/img/people/james-phelps.webp
+    # Hidden until he confirms (asked 2026-09-27).
+    # - name: "James Phelps"
+    #   role: "Chief Technical Officer, Plyobotics LLC"
+    #   credential: "Former Electrical Engineer, NASA Langley Research Center"
+    #   image: assets/img/people/james-phelps.webp
   # Partner logos: use the organization's own logo file, unaltered, with permission.
   # Hidden until partner permissions are confirmed (check started 2026-09-27).
   # partners:

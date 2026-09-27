@@ -118,7 +118,6 @@ advisors:
       role: "Professor"
       credential: "UT Austin, Department of Electrical & Computer Engineering"
       image: assets/img/people/deji-akinwande.webp
-      linkedin: https://www.linkedin.com/in/deji-akinwande-b77b48b9
     # Hidden until he confirms (asked 2026-09-27).
     # - name: "James Phelps"
     #   role: "Chief Technical Officer, Plyobotics LLC"

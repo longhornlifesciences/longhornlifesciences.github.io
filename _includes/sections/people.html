@@ -1,0 +1,18 @@
+{%- comment -%} Team/advisor grid. Params: section, id, tint, compact. {%- endcomment -%}
+{%- assign s = include.section -%}
+<section class="section{% if include.tint %} section--tint{% endif %}" id="{{ include.id }}">
+  <div class="container">
+    {% include section-header.html s=s %}
+    <ul class="people{% if include.compact %} people--compact{% endif %}">
+      {%- for p in s.people %}
+      <li class="person">
+        <img class="person__photo" src="{{ p.image | relative_url }}" alt="{{ p.name }}" loading="lazy">
+        <h3 class="person__name">{{ p.name }}</h3>
+        <p class="person__role">{{ p.role }}</p>
+        {%- if p.credential %}<p class="person__cred">{{ p.credential }}</p>{% endif %}
+        {%- if p.linkedin %}<a class="person__link" href="{{ p.linkedin }}" rel="noopener" target="_blank">LinkedIn &nearr;</a>{% endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

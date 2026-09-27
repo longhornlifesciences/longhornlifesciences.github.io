@@ -1,0 +1,11 @@
+// Standalone pages (privacy policy, 404).
+.page { min-height: 60vh; }
+.page__header { margin-bottom: 40px; }
+.page__title { font-size: clamp(2rem, 1.4rem + 2.2vw, 3rem); letter-spacing: -0.015em; }
+
+.prose {
+  max-width: 44em;
+  h2 { font-size: 1.375rem; margin: 2em 0 0.6em; }
+  a { text-decoration: underline; text-underline-offset: 3px; }
+  .btn { text-decoration: none; }
+}

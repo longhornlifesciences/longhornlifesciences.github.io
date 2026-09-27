@@ -1,26 +1,28 @@
-// Button Styles
 .btn {
-  @include heading-font;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 22px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font: 700 0.9375rem/1 var(--font-display);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s ease-out, border-color 0.15s ease-out;
+  &:hover { text-decoration: none; }
+  &:disabled { opacity: 0.6; cursor: progress; }
 }
 
-.btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+// Light surfaces: marine fill. Dark surfaces: teal fill with obsidian text.
+.btn--marine {
+  background: var(--navy-marine);
+  color: var(--white);
+  &:hover { background: var(--obsidian-400); }
 }
-
-.btn-primary {
-  background-color: $primary;
-  border-color: $primary;
-  &:active,
-  &:focus,
-  &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
-    color: white;
-  }
-  &:active,
-  &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
-  }
+.btn--teal {
+  background: var(--teal);
+  color: var(--obsidian-800);
+  &:hover { background: var(--teal-bright); }
+  &:focus-visible { outline-color: var(--teal-bright); }
 }

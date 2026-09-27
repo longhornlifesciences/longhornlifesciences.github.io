@@ -1,0 +1,69 @@
+@use "../base/mq" as *;
+
+// Obsidian register: the brand moment at the top of the page.
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--gradient-cover-radial);
+  color: var(--role-text-on-dark-body);
+  padding-block: clamp(80px, 11vw, 150px) clamp(72px, 10vw, 128px);
+
+  // Low-poly mesh motif, faded in from the right.
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 0 40%;
+    background: url("../img/brand/motif-mesh.svg") right 4% center / auto 90% no-repeat;
+    opacity: 0.16;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 70%);
+    mask-image: linear-gradient(90deg, transparent, #000 70%);
+    pointer-events: none;
+  }
+}
+.hero__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 48px;
+}
+.hero__title {
+  color: var(--role-text-on-dark-strong);
+  font-size: clamp(2.25rem, 1.2rem + 3.6vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+.hero__text {
+  margin: 24px 0 0;
+  max-width: 34em;
+  font-size: 1.25rem;
+}
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 28px;
+  margin-top: 40px;
+}
+.hero__mark {
+  position: relative;
+  justify-self: center;
+  width: min(100%, 440px);
+  // Soft ring-gradient glow behind the medallion. The horns overhang the
+  // ring, so the image itself is never cropped or masked.
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 12%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(33, 175, 239, 0.28), rgba(23, 205, 165, 0.08) 55%, transparent 72%);
+    filter: blur(24px);
+  }
+  img { position: relative; width: 100%; filter: drop-shadow(var(--shadow-darkMd)); }
+}
+
+@include below($bp-md) {
+  .hero__inner { grid-template-columns: 1fr; }
+  .hero__mark { order: -1; width: min(60%, 260px); justify-self: start; }
+  .hero::before { inset: 0; opacity: 0.2; }
+}

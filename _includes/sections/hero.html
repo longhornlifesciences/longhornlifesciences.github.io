@@ -1,0 +1,17 @@
+{%- assign s = site.data.home.hero -%}
+<section class="hero" id="top">
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow eyebrow--on-dark">{{ s.eyebrow }}</p>
+      <h1 class="hero__title">{{ s.title }}</h1>
+      <p class="hero__text">{{ s.text }}</p>
+      <div class="hero__actions">
+        <a class="btn btn--teal" href="#{{ s.primary.section }}">{{ s.primary.label }}</a>
+        <a class="link-arrow link-arrow--on-dark" href="#{{ s.secondary.section }}">{{ s.secondary.label }}</a>
+      </div>
+    </div>
+    <div class="hero__mark">
+      <img src="{{ '/assets/img/brand/medallion-640.png' | relative_url }}" alt="Longhorn Life Sciences medallion" width="640" height="640">
+    </div>
+  </div>
+</section>

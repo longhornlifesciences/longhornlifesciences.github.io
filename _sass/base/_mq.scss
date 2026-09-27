@@ -1,0 +1,7 @@
+// Breakpoints (max-width, mobile-last) shared by every partial.
+$bp-md: 960px;
+$bp-sm: 640px;
+
+@mixin below($bp) {
+  @media (max-width: ($bp - 0.02px)) { @content; }
+}

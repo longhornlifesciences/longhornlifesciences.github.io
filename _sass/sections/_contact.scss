@@ -1,0 +1,62 @@
+@use "../base/mq" as *;
+
+// Closing brand moment: back to the Obsidian register.
+.contact {
+  background: var(--gradient-obsidian);
+  color: var(--role-text-on-dark-body);
+  padding-block: clamp(72px, 10vw, 128px);
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline-color: var(--teal-bright);
+  }
+}
+.contact__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 48px 80px;
+  @include below($bp-md) { grid-template-columns: 1fr; }
+}
+.contact__title {
+  color: var(--role-text-on-dark-strong);
+  font-size: clamp(2.25rem, 1.4rem + 3vw, 3.5rem);
+  letter-spacing: -0.02em;
+}
+.contact__text { margin: 20px 0 32px; font-size: 1.125rem; max-width: 28em; }
+
+.form { display: grid; gap: 20px; }
+.form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  @include below($bp-sm) { grid-template-columns: 1fr; }
+}
+.field { display: grid; gap: 8px; }
+.field label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--role-text-on-dark-body);
+}
+.field__optional { text-transform: none; letter-spacing: 0; color: var(--role-text-on-dark-muted); }
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 14px 16px;
+  font: inherit;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--role-border-on-dark);
+  border-radius: var(--radius-md);
+  transition: border-color 0.15s ease-out, background-color 0.15s ease-out;
+  &:hover { border-color: var(--gunmetal-500); }
+  &:focus { border-color: var(--teal); background: rgba(255, 255, 255, 0.07); outline: none; }
+}
+.field textarea { resize: vertical; min-height: 140px; }
+
+.form__footer { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; }
+.form__status {
+  margin: 0;
+  font-size: 0.9375rem;
+  &[data-state="ok"] { color: var(--teal-bright); }
+  &[data-state="error"] { color: #ff8a8a; }
+}

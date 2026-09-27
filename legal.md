@@ -1,15 +1,11 @@
 ---
 layout: page
 title: Privacy Policy
-background: white
+eyebrow: Legal
 ---
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
-</div>
-
 This Privacy Policy describes how your personal information is collected, used, and shared when you visit the {{ site.title }} website.
 
-**PERSONAL INFORMATION WE COLLECT**
+## Personal information we collect
 
 {% if site.analytics.google %}
 
@@ -29,10 +25,10 @@ We do not collect any data about you or use any cookies.
 
 {% endif %}
 
-**CHANGES**
+## Changes
 
 We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
 
-**CONTACT US**
+## Contact us
 
 For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>. 

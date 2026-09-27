@@ -1,0 +1,39 @@
+@use "../base/mq" as *;
+
+// Team/bio blocks: 4-across, square photo, name / role / credential.
+.people {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 48px 36px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  @include below($bp-md) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.person__photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 14px;
+  background: var(--slate-100);
+  margin-bottom: 20px;
+}
+.person__name { font-size: 1.25rem; line-height: 1.25; }
+.person__role { margin: 6px 0 0; color: var(--role-accent-primary-on-light); }
+.person__cred { margin: 6px 0 0; font-size: 0.9375rem; line-height: 1.45; color: var(--role-text-on-light-muted); }
+.person__link {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--role-text-on-light-muted);
+  &:hover { color: var(--role-accent-primary-on-light); }
+}
+
+.people--compact {
+  .person__name { font-size: 1.0625rem; }
+  .person__role { font-size: 0.9375rem; }
+  .person__cred { font-size: 0.875rem; }
+}

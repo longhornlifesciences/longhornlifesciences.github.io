@@ -1,0 +1,38 @@
+{%- assign s = site.data.home.contact -%}
+<section class="contact" id="contact">
+  <div class="container contact__inner">
+    <div class="contact__intro">
+      <p class="eyebrow eyebrow--on-dark">{{ s.eyebrow }}</p>
+      <h2 class="contact__title">{{ s.title }}</h2>
+      <p class="contact__text">{{ s.text }}</p>
+      <a class="link-arrow link-arrow--on-dark" href="{{ s.linkedin.url }}" rel="noopener" target="_blank">{{ s.linkedin.text }}</a>
+    </div>
+    <form class="form" action="https://formspree.io/{{ site.formspree_form_path | default: site.email }}" method="POST"
+          data-contact-form data-fallback-email="{{ site.email }}">
+      <div class="form__row">
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="cf-phone">Phone <span class="field__optional">(optional)</span></label>
+        <input id="cf-phone" name="phone" type="tel" autocomplete="tel">
+      </div>
+      <div class="field">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+      </div>
+      <input type="hidden" name="_subject" value="Website contact form">
+      <input type="text" name="_gotcha" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="form__footer">
+        <button class="btn btn--teal" type="submit">Send message</button>
+        <p class="form__status" role="status" aria-live="polite" data-form-status></p>
+      </div>
+    </form>
+  </div>
+</section>

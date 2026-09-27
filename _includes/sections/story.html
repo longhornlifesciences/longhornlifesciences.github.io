@@ -1,0 +1,27 @@
+{%- assign s = site.data.home.story -%}
+<section class="section section--tint" id="story">
+  <div class="container container--narrow">
+    {% include section-header.html s=s %}
+    <ol class="timeline">
+      {%- for e in s.events %}
+      <li class="timeline__item">
+        <article class="timeline__card">
+          {%- if e.image %}
+          <div class="timeline__media{% if e.fit == 'contain' %} timeline__media--contain{% endif %}">
+            <img src="{{ e.image | relative_url }}" alt="{{ e.alt }}" loading="lazy">
+          </div>
+          {%- endif %}
+          <div class="timeline__body">
+            <p class="timeline__date">{{ e.date }}</p>
+            <h3 class="timeline__title">{{ e.title }}</h3>
+            <div class="timeline__desc">{{ e.desc | markdownify }}</div>
+          </div>
+        </article>
+      </li>
+      {%- endfor %}
+      <li class="timeline__item timeline__item--end">
+        <a class="btn btn--marine" href="#{{ s.end.section }}">{{ s.end.label }} &rarr;</a>
+      </li>
+    </ol>
+  </div>
+</section>

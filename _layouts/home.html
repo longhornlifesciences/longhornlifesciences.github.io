@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-{% include navheader.html %}
-{% include video_test.html %}
-{% include timeline.html %}
-{% include team.html %}
-{% include linkedin.html %}
-{% include advisors.html %}
-{% include clients.html %}
-{% include contact.html %}
+{% include sections/hero.html %}
+{% include sections/mission.html %}
+{% include sections/story.html %}
+{% include sections/people.html section=site.data.home.team id="team" %}
+{% include sections/people.html section=site.data.home.advisors id="advisors" tint=true compact=true %}
+{% include sections/contact.html %}

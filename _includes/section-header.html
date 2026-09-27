@@ -1,0 +1,5 @@
+{%- comment -%} Eyebrow + headline pair. Pass `s` (a section's data) and optional `class`. {%- endcomment -%}
+<header class="section__header {{ include.class }}">
+  <p class="eyebrow">{{ include.s.eyebrow }}</p>
+  <h2 class="section__title">{{ include.s.title }}</h2>
+</header>

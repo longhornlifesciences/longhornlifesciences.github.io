@@ -1,0 +1,10 @@
+@use "../base/mq" as *;
+
+.mission__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 32px 64px;
+  align-items: end;
+  .lede { margin: 0; }
+  @include below($bp-md) { grid-template-columns: 1fr; }
+}

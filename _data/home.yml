@@ -1,0 +1,112 @@
+# Home page copy. Each top-level key feeds one section include in
+# _includes/sections/. Plain strings; `desc`/`text` fields accept Markdown.
+
+hero:
+  eyebrow: "MedTech · Founded 2021"
+  title: "Improving patient outcomes and experiences through remote wound monitoring."
+  text: "A MedTech venture led by scientists, clinicians, and entrepreneurs."
+  primary: { label: "Get in touch", section: contact }
+  secondary: { label: "Our story", section: story }
+
+mission:
+  eyebrow: "Our mission"
+  title: "To develop needs-driven medical technology that improves patient outcomes and experiences."
+  text: >-
+    Longhorn Life Sciences, Inc. (LLS) is a MedTech venture led by a strong and
+    diverse team of scientists, clinicians, and entrepreneurs at UT Austin and
+    MD Anderson.
+
+story:
+  eyebrow: "Our story"
+  title: "From a Texas Biodesign team to a MedTech company."
+  end: { label: "Be part of our story", section: contact }
+  # Events render in list order. `fit: contain` suits logos (no cropping).
+  events:
+    - date: "Spring 2021"
+      title: "Our humble beginnings"
+      desc: "Our team came together as part of the inaugural Texas Biodesign program, which teaches a needs-based approach to innovation in the medical sector. The team identified several quality needs, eventually leading to the concept that became iDetect."
+      image: assets/img/story/utcampus.jpg
+      alt: "The UT Austin campus and tower at sunset"
+    - date: "Spring 2021 – Fall 2021"
+      title: "VentureWell E-Team"
+      desc: "We were selected as an E-Team in the VentureWell program at the Pioneer and Propel levels. Its workshops gave us coaching, mentorship, and a series of customer discovery interviews that sharpened our value propositions and market strategy."
+      image: assets/img/story/venturewell.jpg
+      alt: "VentureWell logo"
+      fit: contain
+    - date: "July 2021"
+      title: "Longhorn Life Sciences is founded"
+      desc: "After completing Texas Biodesign, the team began developing iDetect and incorporated Longhorn Life Sciences as a Delaware C Corp."
+      image: assets/img/story/llsteam.jpg
+      alt: "The founding Longhorn Life Sciences team"
+    - date: "2021 – Present"
+      title: "Engaging strategic partners"
+      desc: "We have sought out strategic partnerships, including established wound care device manufacturers, the Department of Defense, and NASA's Office of Technology Transfer."
+      image: assets/img/story/strategicpartnerships.jpg
+      alt: "The team with partners at an event"
+    - date: "Fall 2021 – Present"
+      title: "Pitch competitions"
+      desc: "We have competed in the Texas Venture Labs Investment Competition on four occasions, winning it in Fall 2024 along with several additional awards, including the award for top health innovation. We were an alternate for the Texas A&M New Ventures Competition, where we won the elevator pitch and two other awards, and were invited to pitch at Project Medtech in 2024."
+      image: assets/img/story/pitch.jpg
+      alt: "A team member pitching on stage"
+    - date: "Spring 2022 – Present"
+      title: "Customer discovery"
+      desc: "Led by Dr. Miles Massidda, Dr. Cristina Checka, and students in the Texas Venture Labs Practicum, the team has completed 140 customer discovery interviews, in part through the VentureWell and Washington University Equalize mentorship programs. The interviews have targeted doctors, nurses, patients, and clinical purchasing teams to validate the clinical need, mitigate regulatory hurdles, and identify viable sales channels."
+      image: assets/img/story/customerdiscovery.jpg
+      alt: "Team members conducting interviews"
+
+team:
+  eyebrow: "Our team"
+  title: "Scientists, clinicians, and entrepreneurs."
+  people:
+    - name: "Miles Massidda, PhD"
+      role: "Co-founder & CEO"
+      credential: "PhD in Biomedical Engineering, UT Austin"
+      image: assets/img/people/miles-massidda.jpg
+      linkedin: https://www.linkedin.com/in/miles-massidda-ph-d-25a86aa8
+    - name: "James Clarke, PhD"
+      role: "Co-founder & CSO"
+      credential: "PhD in Physics, UT Austin"
+      image: assets/img/people/james-clarke.jpg
+      linkedin: https://www.linkedin.com/in/james-h-clarke-v/
+    - name: "Cristina Checka, MD"
+      role: "Co-founder"
+      credential: "Department of Breast Surgical Oncology, Division of Surgery, MD Anderson"
+      image: assets/img/people/cristina-checka.jpg
+    - name: "Scott Alpard"
+      role: "Co-founder"
+      credential: "Dept Admin and Director, Innovation, Department of Breast Surgical Oncology, MD Anderson"
+      image: assets/img/people/scott-alpard.jpg
+      linkedin: https://www.linkedin.com/in/scott-alpard-2ba8531/
+
+advisors:
+  eyebrow: "Our advisors"
+  title: "Guided by experienced mentors."
+  people:
+    - name: "Ashley Jennings"
+      role: "Managing Director, Texas Innovation Center"
+      credential: "Director, Entrepreneurship Initiatives, UT CNS"
+      image: assets/img/people/ashley-jennings.jpg
+      linkedin: https://www.linkedin.com/in/ashley-jane/
+    - name: "Gazell Call, PhD"
+      role: "Senior IP Specialist"
+      credential: "UT Austin Discovery to Impact"
+      image: assets/img/people/gazell-call.jpg
+      linkedin: https://www.linkedin.com/in/gazellcall/
+    - name: "Scott Evans, PhD"
+      role: "Director, Texas Inventionworks"
+      credential: "UT Austin CSE"
+      image: assets/img/people/scott-evans.jpg
+      linkedin: https://www.linkedin.com/in/r-scott-evans-34a6512/
+    - name: "Prof. Deji Akinwande, PhD"
+      role: "Professor"
+      credential: "UT Austin, Department of Electrical & Computer Engineering"
+      image: assets/img/people/deji-akinwande.jpg
+      linkedin: https://www.linkedin.com/in/deji-akinwande-b77b48b9
+
+contact:
+  eyebrow: "Contact"
+  title: "Let's talk."
+  text: "Questions, partnerships, or clinical interest: send us a note and we'll get back to you."
+  linkedin:
+    text: "Follow our progress on LinkedIn"
+    url: https://www.linkedin.com/company/longhorn-life-sciences

@@ -13,7 +13,7 @@ mission:
   title: "To develop needs-driven medical technology that improves patient outcomes and experiences."
   text: >-
     Longhorn Life Sciences, Inc. (LLS) is a MedTech venture led by a strong and
-    diverse team of scientists, clinicians, and entrepreneurs at UT Austin and
+    diverse team of scientists, clinicians, and entrepreneurs out of UT Austin and
     MD Anderson.
 
 story:
@@ -82,7 +82,7 @@ team:
       role: "Co-founder"
       credential: "Department of Breast Surgical Oncology, Division of Surgery, MD Anderson"
       image: assets/img/people/cristina-checka.webp
-    - name: "Scott Alpard"
+    - name: "Scott Alpard, PhD"
       role: "Co-founder"
       credential: "Dept Admin and Director, Innovation, Department of Breast Surgical Oncology, MD Anderson"
       image: assets/img/people/scott-alpard.webp
@@ -102,11 +102,10 @@ advisors:
       credential: "UT Austin Discovery to Impact"
       image: assets/img/people/gazell-call.webp
       linkedin: https://www.linkedin.com/in/gazellcall/
-    - name: "Scott Evans, PhD"
-      role: "Director, Texas Inventionworks"
-      credential: "UT Austin CSE"
-      image: assets/img/people/scott-evans.webp
-      linkedin: https://www.linkedin.com/in/r-scott-evans-34a6512/
+    - name: "Rush Bartlett, PhD"
+      role: "Chief Executive Officer"
+      credential: "Sluice AI"
+      image: assets/img/people/rush-bartlett.webp
     - name: "Prof. Deji Akinwande, PhD"
       role: "Professor"
       credential: "UT Austin, Department of Electrical & Computer Engineering"

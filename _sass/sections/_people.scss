@@ -46,3 +46,45 @@
   .person__role { font-size: 0.9375rem; }
   .person__cred { font-size: 0.875rem; }
 }
+
+// Partner logo strip under the advisors: organizations' own logo files,
+// unaltered, at a common height, each named underneath.
+.partners {
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--role-border-on-light);
+  text-align: center;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px 56px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    display: grid;
+    justify-items: center;
+    gap: 12px;
+    color: var(--role-text-on-light-muted);
+    &:hover { color: var(--text-accent-on-light); text-decoration: none; }
+  }
+  img { height: 80px; width: auto; }
+}
+.partners__label {
+  margin: 0 0 24px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--role-text-on-light-muted);
+}
+.partners__name {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}

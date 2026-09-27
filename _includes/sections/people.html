@@ -14,5 +14,15 @@
       </li>
       {%- endfor %}
     </ul>
+    {%- if s.partners %}
+    <div class="partners">
+      <h3 class="partners__label">Partners</h3>
+      <ul>
+        {%- for o in s.partners %}
+        <li><a href="{{ o.url }}" rel="noopener" target="_blank"><img src="{{ o.logo | relative_url }}" alt="" height="80" loading="lazy"><span class="partners__name">{{ o.name }}</span><span class="visually-hidden"> (opens in a new tab)</span></a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {%- endif %}
   </div>
 </section>

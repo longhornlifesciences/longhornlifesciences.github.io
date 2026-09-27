@@ -84,12 +84,12 @@ team:
       image: assets/img/people/cristina-checka.webp
     - name: "Scott Alpard, PhD"
       role: "Co-founder"
-      credential: "Dept Admin and Director, Innovation, Department of Breast Surgical Oncology, MD Anderson"
+      credential: "Chief Business Officer, MD Anderson"
       image: assets/img/people/scott-alpard.webp
       linkedin: https://www.linkedin.com/in/scott-alpard-2ba8531/
 
 advisors:
-  eyebrow: "Our advisors"
+  eyebrow: "Partners & advisors"
   title: "Guided by experienced mentors."
   people:
     # - name: "Ashley Jennings"
@@ -97,11 +97,19 @@ advisors:
     #   credential: "Director, Entrepreneurship Initiatives, UT CNS"
     #   image: assets/img/people/ashley-jennings.webp
     #   linkedin: https://www.linkedin.com/in/ashley-jane/
-    - name: "Gazell Call, PhD"
-      role: "Senior IP Specialist"
-      credential: "UT Austin Discovery to Impact"
-      image: assets/img/people/gazell-call.webp
-      linkedin: https://www.linkedin.com/in/gazellcall/
+    # - name: "Gazell Call, PhD"
+    #   role: "Senior IP Specialist"
+    #   credential: "UT Austin Discovery to Impact"
+    #   image: assets/img/people/gazell-call.webp
+    #   linkedin: https://www.linkedin.com/in/gazellcall/
+    - name: "Tom Krummel, MD"
+      role: "Chair Emeritus, Department of Surgery"
+      credential: "Stanford University"
+      image: assets/img/people/tom-krummel.webp
+    - name: "Kelly Hunt, MD"
+      role: "Professor and Chair"
+      credential: "Department of Breast Surgical Oncology, MD Anderson"
+      image: assets/img/people/kelly-hunt.webp
     - name: "Rush Bartlett, PhD"
       role: "Chief Executive Officer"
       credential: "Sluice AI"
@@ -111,6 +119,15 @@ advisors:
       credential: "UT Austin, Department of Electrical & Computer Engineering"
       image: assets/img/people/deji-akinwande.webp
       linkedin: https://www.linkedin.com/in/deji-akinwande-b77b48b9
+    - name: "James Phelps"
+      role: "Chief Technical Officer, Plyobotics LLC"
+      credential: "Electrical Engineer, NASA Langley Research Center"
+      image: assets/img/people/james-phelps.webp
+  # Partner logos: use the organization's own logo file, unaltered, with permission.
+  partners:
+    - name: "Capital Factory"
+      logo: assets/img/partners/capital-factory.svg
+      url: https://www.capitalfactory.com
 
 contact:
   eyebrow: "Contact"

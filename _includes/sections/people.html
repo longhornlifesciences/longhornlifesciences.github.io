@@ -10,7 +10,7 @@
     <ul class="people people--per-{{ per }}{% if include.compact %} people--compact{% endif %}">
       {%- for p in s.people %}
       <li class="person">
-        <img class="person__photo" src="{{ p.image | relative_url }}" alt="{{ p.name }}" width="600" height="600" loading="lazy">
+        <img class="person__photo" src="{{ p.image | relative_url }}?v={{ site.time | date: '%s' }}" alt="{{ p.name }}" width="600" height="600" loading="lazy">
         <h3 class="person__name">{{ p.name }}</h3>
         <p class="person__role">{{ p.role }}</p>
         {%- if p.credential %}<p class="person__cred">{{ p.credential | join: '<br>' }}</p>{% endif %}
@@ -23,7 +23,7 @@
       <h3 class="partners__label">Partners</h3>
       <ul>
         {%- for o in s.partners %}
-        <li><a href="{{ o.url }}" rel="noopener" target="_blank"><img src="{{ o.logo | relative_url }}" alt="" height="80" loading="lazy"><span class="partners__name">{{ o.name }}</span><span class="visually-hidden"> (opens in a new tab)</span></a></li>
+        <li><a href="{{ o.url }}" rel="noopener" target="_blank"><img src="{{ o.logo | relative_url }}?v={{ site.time | date: '%s' }}" alt="" height="80" loading="lazy"><span class="partners__name">{{ o.name }}</span><span class="visually-hidden"> (opens in a new tab)</span></a></li>
         {%- endfor %}
       </ul>
     </div>

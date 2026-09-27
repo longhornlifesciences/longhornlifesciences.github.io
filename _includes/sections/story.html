@@ -9,7 +9,7 @@
           {%- if e.image %}
           <div class="timeline__media{% if e.fit == 'contain' %} timeline__media--contain{% endif %}">
             {%- assign stem = e.image | relative_url %}
-            <img src="{{ stem }}-720.webp" srcset="{{ stem }}-480.webp 480w, {{ stem }}-720.webp 720w"
+            <img src="{{ stem }}-720.webp?v={{ site.time | date: '%s' }}" srcset="{{ stem }}-480.webp?v={{ site.time | date: '%s' }} 480w, {{ stem }}-720.webp?v={{ site.time | date: '%s' }} 720w"
                  sizes="(max-width: 639px) 100vw, 220px" width="720" height="720" alt="{{ e.alt }}" loading="lazy"{% if e.focus %} style="object-position: {{ e.focus }}"{% endif %}>
           </div>
           {%- endif %}

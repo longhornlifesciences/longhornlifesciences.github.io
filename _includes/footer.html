@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="container site-footer__inner">
     <div class="site-footer__brand">
-      <img src="{{ '/assets/img/brand/medallion-128.webp' | relative_url }}" alt="" width="32" height="32">
+      <img src="{{ '/assets/img/brand/medallion-128.webp' | relative_url }}?v={{ site.time | date: '%s' }}" alt="" width="32" height="32">
       <span>{{ site.title }}</span>
     </div>
     <ul class="site-footer__links">

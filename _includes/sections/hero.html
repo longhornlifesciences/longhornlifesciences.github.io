@@ -11,8 +11,8 @@
       </div>
     </div>
     <div class="hero__mark">
-      <img src="{{ '/assets/img/brand/medallion-640.webp' | relative_url }}"
-           srcset="{{ '/assets/img/brand/medallion-320.webp' | relative_url }} 320w, {{ '/assets/img/brand/medallion-640.webp' | relative_url }} 640w"
+      <img src="{{ '/assets/img/brand/medallion-640.webp' | relative_url }}?v={{ site.time | date: '%s' }}"
+           srcset="{{ '/assets/img/brand/medallion-320.webp' | relative_url }}?v={{ site.time | date: '%s' }} 320w, {{ '/assets/img/brand/medallion-640.webp' | relative_url }}?v={{ site.time | date: '%s' }} 640w"
            sizes="(max-width: 959px) 260px, 440px" width="640" height="640" fetchpriority="high"
            alt="Longhorn Life Sciences medallion">
     </div>

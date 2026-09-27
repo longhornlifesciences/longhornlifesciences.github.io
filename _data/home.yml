@@ -22,6 +22,8 @@ story:
   end: { label: "Be part of our story", section: contact }
   # Events render in list order. `fit: contain` suits logos (no cropping).
   # `image` is a path stem: the site loads <stem>-480.webp and <stem>-720.webp.
+  # `focus` sets the crop point as a CSS object-position (e.g. "85% center"
+  # keeps the right side).
   events:
     - date: "Spring 2021"
       title: "Our humble beginnings"
@@ -48,6 +50,7 @@ story:
       title: "Pitch competitions"
       desc: "We have competed in the Texas Venture Labs Investment Competition on four occasions, winning it in Fall 2024 along with several additional awards, including the award for top health innovation. We were an alternate for the Texas A&M New Ventures Competition, where we won the elevator pitch and two other awards, and were invited to pitch at Project Medtech in 2024."
       image: assets/img/story/pitch
+      focus: "85% center"
       alt: "A team member pitching on stage"
     - date: "Spring 2022 – Present"
       title: "Customer discovery"

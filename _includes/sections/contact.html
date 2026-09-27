@@ -5,7 +5,7 @@
       <p class="eyebrow eyebrow--on-dark">{{ s.eyebrow }}</p>
       <h2 class="contact__title">{{ s.title }}</h2>
       <p class="contact__text">{{ s.text }}</p>
-      <a class="link-arrow link-arrow--on-dark" href="{{ s.linkedin.url }}" rel="noopener" target="_blank">{{ s.linkedin.text }}</a>
+      <a class="link-arrow link-arrow--on-dark" href="{{ s.linkedin.url }}" rel="noopener" target="_blank">{{ s.linkedin.text }}<span class="visually-hidden"> (opens in a new tab)</span></a>
     </div>
     <form class="form" action="https://formspree.io/{{ site.formspree_form_path | default: site.email }}" method="POST"
           data-contact-form data-fallback-email="{{ site.email }}">

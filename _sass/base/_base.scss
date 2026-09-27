@@ -1,5 +1,13 @@
 @use "mq" as *;
 
+:root {
+  // Site override (not in the brand tokens): the brand's accent-on-light
+  // teal #109aa6 is 3.4:1 on white, below WCAG AA for body-size text. Same
+  // hue darkened to 4.95:1 on white / 4.62:1 on the tint. Use it for text;
+  // keep --teal-deep for rules, dots and other non-text accents.
+  --text-accent-on-light: #0d7c85;
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
@@ -32,7 +40,7 @@ h1, h2, h3, h4 {
 }
 p { margin: 0 0 1em; }
 
-a { color: var(--role-accent-primary-on-light); text-decoration: none; }
+a { color: var(--text-accent-on-light); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 :focus-visible {
@@ -61,7 +69,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   font-size: 0.8125rem;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--role-accent-primary-on-light);
+  color: var(--text-accent-on-light);
 }
 .eyebrow--on-dark { color: var(--role-accent-bright); }
 

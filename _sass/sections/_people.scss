@@ -19,7 +19,7 @@
   margin-bottom: 20px;
 }
 .person__name { font-size: 1.25rem; line-height: 1.25; }
-.person__role { margin: 6px 0 0; color: var(--role-accent-primary-on-light); }
+.person__role { margin: 6px 0 0; color: var(--text-accent-on-light); }
 .person__cred { margin: 6px 0 0; font-size: 0.9375rem; line-height: 1.45; color: var(--role-text-on-light-muted); }
 .person__link {
   display: inline-block;
@@ -29,7 +29,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--role-text-on-light-muted);
-  &:hover { color: var(--role-accent-primary-on-light); }
+  &:hover { color: var(--text-accent-on-light); }
 }
 
 .people--compact {

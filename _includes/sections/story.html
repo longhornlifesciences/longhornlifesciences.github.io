@@ -8,7 +8,9 @@
         <article class="timeline__card{% unless e.image %} timeline__card--text{% endunless %}">
           {%- if e.image %}
           <div class="timeline__media{% if e.fit == 'contain' %} timeline__media--contain{% endif %}">
-            <img src="{{ e.image | relative_url }}" alt="{{ e.alt }}" loading="lazy">
+            {%- assign stem = e.image | relative_url %}
+            <img src="{{ stem }}-720.webp" srcset="{{ stem }}-480.webp 480w, {{ stem }}-720.webp 720w"
+                 sizes="(max-width: 639px) 100vw, 220px" width="720" height="720" alt="{{ e.alt }}" loading="lazy">
           </div>
           {%- endif %}
           <div class="timeline__body">

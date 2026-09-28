@@ -3,7 +3,11 @@
 <section class="section{% if include.tint %} section--tint{% endif %}" id="{{ include.id }}">
   <div class="container">
     {% include section-header.html s=s %}
-    <ul class="people{% if include.compact %} people--compact{% endif %}">
+    {%- comment -%} Balance rows: fewest rows of <= 4, then spread evenly. {%- endcomment -%}
+    {%- assign n = s.people.size -%}
+    {%- assign rows = n | plus: 3 | divided_by: 4 -%}
+    {%- assign per = n | plus: rows | minus: 1 | divided_by: rows -%}
+    <ul class="people people--per-{{ per }}{% if include.compact %} people--compact{% endif %}">
       {%- for p in s.people %}
       <li class="person">
         <img class="person__photo" src="{{ p.image | relative_url }}" alt="{{ p.name }}" width="600" height="600" loading="lazy">

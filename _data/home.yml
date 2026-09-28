@@ -1,5 +1,6 @@
 # Home page copy. Each top-level key feeds one section include in
 # _includes/sections/. Plain strings; `desc`/`text` fields accept Markdown.
+# A person's `credential` may be a string or a list (one line per item).
 
 hero:
   eyebrow: "MedTech · Founded 2021"
@@ -80,11 +81,17 @@ team:
       linkedin: https://www.linkedin.com/in/james-h-clarke-v/
     - name: "Cristina Checka, MD"
       role: "Co-founder"
-      credential: "Department of Breast Surgical Oncology, Division of Surgery, MD Anderson"
+      credential:
+        - "Professor"
+        - "Department of Breast Surgical Oncology"
+        - "MD Anderson Cancer Center"
       image: assets/img/people/cristina-checka.webp
     - name: "Scott Alpard, PhD"
       role: "Co-founder"
-      credential: "Chief Business Officer, MD Anderson"
+      credential:
+        - "Administrator and Director, Innovation Program"
+        - "Department of Breast Surgical Oncology"
+        - "MD Anderson Cancer Center"
       image: assets/img/people/scott-alpard.webp
       linkedin: https://www.linkedin.com/in/scott-alpard-2ba8531/
 
@@ -108,7 +115,9 @@ advisors:
       image: assets/img/people/tom-krummel.webp
     - name: "Kelly Hunt, MD"
       role: "Professor and Chair"
-      credential: "Department of Breast Surgical Oncology, MD Anderson"
+      credential:
+        - "Department of Breast Surgical Oncology"
+        - "MD Anderson Cancer Center"
       image: assets/img/people/kelly-hunt.webp
     - name: "Rush Bartlett, PhD"
       role: "Chief Executive Officer"

@@ -9,7 +9,7 @@
         <img class="person__photo" src="{{ p.image | relative_url }}" alt="{{ p.name }}" width="600" height="600" loading="lazy">
         <h3 class="person__name">{{ p.name }}</h3>
         <p class="person__role">{{ p.role }}</p>
-        {%- if p.credential %}<p class="person__cred">{{ p.credential }}</p>{% endif %}
+        {%- if p.credential %}<p class="person__cred">{{ p.credential | join: '<br>' }}</p>{% endif %}
         {%- if p.linkedin %}<a class="person__link" href="{{ p.linkedin }}" rel="noopener" target="_blank">LinkedIn<span class="visually-hidden">: {{ p.name }}</span> <span aria-hidden="true">&nearr;</span><span class="visually-hidden"> (opens in a new tab)</span></a>{% endif %}
       </li>
       {%- endfor %}

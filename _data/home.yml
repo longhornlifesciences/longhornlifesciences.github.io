@@ -75,7 +75,7 @@ team:
       image: assets/img/people/miles-massidda.webp
       linkedin: https://www.linkedin.com/in/miles-massidda-ph-d-25a86aa8
     - name: "James Clarke, PhD"
-      role: "Co-founder & CSO"
+      role: "Co-founder & CTO"
       credential: "PhD in Physics, UT Austin"
       image: assets/img/people/james-clarke.webp
       linkedin: https://www.linkedin.com/in/james-h-clarke-v/
@@ -113,6 +113,12 @@ advisors:
       role: "Chair Emeritus, Department of Surgery"
       credential: "Stanford University"
       image: assets/img/people/tom-krummel.webp
+    - name: "Scott Walter, PhD"
+      role: "Director of Technology"
+      credential:
+        - "59th Medical Wing"
+        - "Joint Base San Antonio, Lackland Air Force Base"
+      image: assets/img/people/scott-walter.webp
     - name: "Kelly Hunt, MD"
       role: "Professor and Chair"
       credential:

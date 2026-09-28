@@ -1,5 +1,9 @@
 # Newsletter signup (Buttondown). Forms post straight to Buttondown's
-# embed-subscribe endpoint as a normal form submission in a new tab.
+# embed-subscribe endpoint as a normal form submission. Buttondown then
+# redirects to /newsletter/thanks/ (subscription_redirect_url) and, after
+# the confirmation link is clicked, to /newsletter/confirmed/
+# (subscription_confirmation_redirect_url). Both are set on the newsletter
+# via the Buttondown API.
 # Buttondown's docs say not to submit via fetch(), because a subscriber
 # may need to finish a CAPTCHA or confirm on their page. Double opt-in is a
 # Buttondown newsletter setting.

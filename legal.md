@@ -29,6 +29,10 @@ Contact form:
 
 If you contact us through the form on this site, we receive the name, email address, phone number (if provided), and message you submit. Submissions are processed by our form provider, Formspree (<https://formspree.io/legal/privacy-policy>), and are used only to respond to your inquiry.
 
+Newsletter:
+
+If you subscribe to our newsletter, we receive your email address and where on the site you signed up. Subscriptions are managed by our newsletter provider, Buttondown (<https://buttondown.com/legal/privacy>), which asks you to confirm by email before you are added. We use your address only to send company updates, and every email includes a link to unsubscribe.
+
 ## Changes
 
 We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.

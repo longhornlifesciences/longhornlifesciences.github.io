@@ -20,7 +20,6 @@ mission:
 story:
   eyebrow: "Our story"
   title: "From a Texas Biodesign team to a MedTech company."
-  end: { label: "Be part of our story", section: contact }
   # Events render in list order. `fit: contain` suits logos (no cropping).
   # `image` is a path stem: the site loads <stem>-480.webp and <stem>-720.webp.
   # `focus` sets the crop point as a CSS object-position (e.g. "85% center"

@@ -1,0 +1,38 @@
+@use "../base/mq" as *;
+
+// Buttondown signup form: email field + button in one row, stacking on
+// narrow screens. Light by default; `nl-form--dark` for Obsidian surfaces.
+.nl-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 460px;
+}
+.nl-form__input {
+  flex: 1 1 220px;
+  min-width: 0;
+  padding: 12px 14px;
+  font: inherit;
+  font-size: 0.9375rem;
+  color: var(--role-text-on-light-headline);
+  background: var(--white);
+  border: 1px solid var(--role-border-on-light);
+  border-radius: var(--radius-sm);
+  &::placeholder { color: var(--role-text-on-light-faint); }
+  &:focus { border-color: var(--teal-deep); outline: 2px solid var(--teal-deep); outline-offset: 1px; }
+}
+.nl-form .btn { flex: 0 0 auto; }
+
+.nl-form--dark .nl-form__input {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.04);
+  border-color: var(--role-border-on-dark);
+  &::placeholder { color: var(--role-text-on-dark-muted); }
+  &:focus { border-color: var(--teal); outline-color: var(--teal-bright); }
+}
+.nl-form--dark .btn:focus-visible { outline-color: var(--teal-bright); }
+
+// When the button wraps under the field on phones, match the field's width.
+@include below($bp-sm) {
+  .timeline__signup .nl-form .btn { flex: 1 1 100%; justify-content: center; }
+}

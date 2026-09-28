@@ -1,0 +1,15 @@
+{%- comment -%}
+  Buttondown signup form. Params: id (unique per page), location (stored as
+  subscriber metadata), button, class. Posts in a new tab; see _data/newsletter.yml.
+{%- endcomment -%}
+{%- assign nl = site.data.newsletter -%}
+<form class="nl-form {{ include.class }}" action="https://buttondown.com/api/emails/embed-subscribe/{{ nl.username }}" method="post" target="_blank">
+  <label class="visually-hidden" for="{{ include.id }}">Email address</label>
+  <input class="nl-form__input" id="{{ include.id }}" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+  {%- for t in nl.tags %}
+  <input type="hidden" name="tag" value="{{ t }}">
+  {%- endfor %}
+  <input type="hidden" name="metadata__signup-location" value="{{ include.location }}">
+  <input type="hidden" name="embed" value="1">
+  <button class="btn {{ include.button_class | default: 'btn--marine' }}" type="submit">{{ include.button }}<span class="visually-hidden"> (confirmation opens in a new tab)</span></button>
+</form>

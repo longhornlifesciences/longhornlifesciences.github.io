@@ -21,8 +21,13 @@
         </article>
       </li>
       {%- endfor %}
+      {%- assign nl = site.data.newsletter.story %}
       <li class="timeline__item timeline__item--end">
-        <a class="btn btn--marine" href="#{{ s.end.section }}">{{ s.end.label }} &rarr;</a>
+        <div class="timeline__signup">
+          <p class="timeline__date">{{ nl.eyebrow }}</p>
+          <p class="timeline__signup-text">{{ nl.text }} <a href="{{ '/legal' | relative_url }}">Privacy policy</a>.</p>
+          {% include newsletter-form.html id="nl-story" location="story" button=nl.button %}
+        </div>
       </li>
     </ol>
   </div>

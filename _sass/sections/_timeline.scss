@@ -33,7 +33,19 @@ $gutter: 48px; // card offset from the left edge
     border: 3px solid var(--teal-deep);
   }
 }
-.timeline__item--end::before { top: 14px; background: var(--teal-deep); }
+.timeline__item--end::before { top: 24px; background: var(--teal-deep); }
+
+// Newsletter signup closing the timeline: the next chapter, not a card.
+.timeline__signup {
+  padding: 16px 0 0;
+  .timeline__date { margin-bottom: 6px; }
+}
+.timeline__signup-text {
+  margin: 0 0 16px;
+  font-size: 0.9375rem;
+  color: var(--role-text-on-light-muted);
+  a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+}
 
 .timeline__card {
   display: grid;

@@ -1,0 +1,18 @@
+# Newsletter signup (Buttondown). Forms post straight to Buttondown's
+# embed-subscribe endpoint as a normal form submission in a new tab.
+# Buttondown's docs say not to submit via fetch(), because a subscriber
+# may need to finish a CAPTCHA or confirm on their page. Double opt-in is a
+# Buttondown newsletter setting.
+username: LLS
+# Applied to every website signup, so these can be segmented from
+# hand-added contacts (see the LLS newsletter README in the vault).
+tags: [website]
+
+story:
+  eyebrow: "Follow the next chapter"
+  text: "Occasional updates on our progress. Unsubscribe anytime."
+  button: "Subscribe"
+
+footer:
+  label: "Company updates"
+  button: "Subscribe"
